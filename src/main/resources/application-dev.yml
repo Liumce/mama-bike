@@ -1,0 +1,17 @@
+
+#spring
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://localhost:3306/mama-bike?serverTimezone=GMT
+        username: root
+        password: 1
+
+
+#redis
+redis:
+    host: 127.0.0.1
+    port: 6379
+    max-idle: 5
+    max-total: 10
+    max-wait-millis: 3000
