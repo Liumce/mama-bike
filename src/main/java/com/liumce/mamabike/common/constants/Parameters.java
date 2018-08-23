@@ -1,7 +1,8 @@
 package com.liumce.mamabike.common.constants;
 
+
 import lombok.Data;
-import lombok.Value;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -30,6 +31,9 @@ public class Parameters {
     private int redisMaxIdle;
     @Value("${redis.max-wait-millis}")
     private int redisMaxWaitMillis;
+
+    public Parameters() {
+    }
     /*****redis config end*******/
 
 
